@@ -19,7 +19,7 @@ cleos multisig propose_trx setramrate signatories.json trx.json southafrica1 -p 
 ## Review
 
 ```
-cleos multisig review southafrica1 setramrate
+cleos multisig review <youraccount> setramrate
 ```
 
 ## Approve
