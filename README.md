@@ -7,19 +7,19 @@ In order to avoid RAM market speculation at the launch of the Telos blockchain, 
 ## Transaction
 
 ```
-cleos $API push action -sjd eosio setramrate '[64]' -p eosio@active > trx.json
+cleos push action -sjd eosio setramrate '[64]' -p eosio@active > trx.json
 ```
 
 ## Propose
 
 ```
-cleos $API multisig propose_trx setramrate signatories.json trx.json southafrica1 -p southafrica1@active
+cleos multisig propose_trx setramrate signatories.json trx.json southafrica1 -p southafrica1@active
 ```
 
 ## Review
 
 ```
-cleos $API multisig review southafrica1 setramrate
+cleos multisig review southafrica1 setramrate
 ```
 
 ## Approve
